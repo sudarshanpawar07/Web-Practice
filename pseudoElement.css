@@ -1,0 +1,47 @@
+h1::first-letter {
+    color: red;
+
+}
+
+h1::before {
+    content: "❤️";
+}
+
+h1::after {
+    content: "❤️‍🩹";
+}
+p::first-line{
+    color: brown;
+}
+p::selection{
+    background-color: red;
+}
+/* [type]{
+    border: 2px solid rebeccapurple;
+} */
+
+[type = "mail"]{
+    border: 2px solid red;
+}
+
+[type="text"]{
+    border: 3px solid green;
+}
+[id ^="main"]{
+    
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+[id $="box1"]{
+    
+    height: 300px;
+    width: 300px;
+    background-color:green;
+}
+[id *="box2"]{
+    
+    height: 300px;
+    width: 300px;
+    background-color:rgb(39, 17, 207);
+}
